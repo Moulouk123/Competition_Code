@@ -1,0 +1,56 @@
+.card {
+    width: 1000px;
+    height: auto;
+    border: 1px solid #ddd; /* Bordure plus claire */
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px auto;
+    box-shadow: 1px 1px 10px rgba(69, 39, 103, 0.1);
+}
+
+.card-title {
+
+    margin-bottom:2%;/* Violet plus clair */
+}
+
+.article-details {
+    padding: 20px;
+}
+
+.article-detail {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.article-detail strong{
+    font-size: 18px;
+    color: #8a2be2;
+    margin-bottom: 20px;
+}
+
+.article-content {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+.article-content strong {
+    font-size: 18px;
+    color: #8a2be2;
+}
+
+.article-tags {
+    font-size: 16px;
+    color: #333;
+}
+
+.article-tags ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.article-tags ul li {
+    margin-bottom: 5px;
+}
+
+.article-tags strong {
+    color: #8a2be2; /* Violet plus clair */
+}

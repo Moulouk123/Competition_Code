@@ -1,0 +1,217 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.card_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.cardd_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:50px;
+}
+.card{
+  width:100px;
+
+  border: solid 2px black ;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0,2);
+  margin:10px;
+}
+.caard{
+    width:300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0,2);
+    margin:10px;
+  }
+.card img { width:100%;
+ height:auto;
+}
+
+.card_content{
+    padding:20px;
+}
+.card_content h3{
+    font-size: 28px;
+    margin-bottom:8px;
+}
+.card_content{ font-size: 15px;
+    line-height: 1.3;
+
+}
+.card_content .btn
+{
+    display:inline-block;
+    padding : 8px 16px ;
+    border-radius: 4px ;
+    background-color: rgb(227, 217, 235);
+    margin-top: 16px;
+    color:black ;
+    text-decoration:none;
+
+}
+.card_content .bbtn
+{
+    display:inline-block;
+    padding : 8px 16px ;
+    border-radius: 4px ;
+    color:black ;
+    text-decoration:none;
+
+}
+
+.article{
+    display:flex;
+
+}
+
+.element{
+    display: inline-block;
+    margin: 20px;
+}
+.box{
+    background-color:rgb(227, 217, 235);
+      width:300px;
+       height:auto;
+       border-radius:25px;
+}
+.tags{
+    margin-bottom:20px;
+    background-color: blueviolet;
+    color: rgb(232, 222, 237);
+    padding:1px;
+    margin-left:40px;
+    margin-right:20px;
+    width:175px ;
+    border-radius: 25px;
+    font-size:smaller;
+
+}
+.max {
+    /* Ajoute un espace entre les boutons */
+    background-color: #9747FF; /* Couleur de fond */
+    color: #FFFFFF; /* Couleur du texte */
+    margin: 10px 20px;
+    padding: 5px 10px; /* Ajoute de l'espace à l'intérieur du bouton */
+    border: none; /* Supprime la bordure */
+    border-radius: 25px; /* Arrondi les coins */
+    font-size: 14px;
+    font-weight: bolder; /* Taille de la police */
+    cursor: pointer; /* Change le curseur au survol */
+    box-shadow: #ccc;
+
+}
+.max:hover {
+    background-color: #7E3AE8; /* Change la couleur de fond au survol */
+}
+.text{
+    margin-left:5%;
+    margin-right: 2%;
+    margin-top:35px;
+    line-height: 1.8;
+}
+
+button.selected {
+    background-color:#461474; /* Couleur de fond de votre choix */
+    color: white; /* Couleur du texte de votre choix */
+    /* Autres styles CSS que vous souhaitez appliquer */
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif; /* Police de caractères */
+    font-size: 4rem; /* Taille du texte */
+    color: #461474; /* Couleur violette */
+    text-transform: uppercase; /* Conversion en majuscules */
+    letter-spacing: 3px; /* Espacement entre les lettres */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombre portée */
+}
+
+.card-body .btn
+{
+    display:inline-block;
+    padding : 8px 16px ;
+    border-radius: 4px ;
+    background-color: rgb(227, 217, 235);
+    margin-top: 16px;
+    color:black ;
+    text-decoration:none;
+
+}
+.profile-description {
+    font-family: Arial, sans-serif; /* Choisissez votre belle fonte ici */
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width:550px;
+    height:260px; /* Ajustez selon vos besoins */
+  }
+
+  .profile-description h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .profile-description p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail {
+    display: flex;
+    margin-top:2%;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .detail i {
+    font-size: 20px;
+    margin-right:15px;
+  }
+
+  .detail span {
+    font-size: 16px;
+  }
+  .profiles {
+    position: relative;
+    width: 300px; /* ajustez selon vos besoins */
+    height: 200px; /* ajustez selon vos besoins */
+  }
+
+  .couverture {
+    width: 100%;
+    height: auto;
+  }
+
+  .profile {
+    position: absolute;
+    top: 80%; /* ajustez la position verticale */
+    left:57%; /* ajustez la position horizontale */
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff; /* facultatif : pour ajouter une bordure à la photo de profil */
+    border-radius: 50%; /* facultatif : pour arrondir les coins de la photo de profil */
+    width: 100px; /* ajustez selon vos besoins */
+    height: 100px; /* ajustez selon vos besoins */
+  }
+  .ami {
+    position: absolute;
+ /* ajustez la position horizontale */
+    transform: translate(-50%, -50%);
+    border: 2px solid #0d0707; /* facultatif : pour ajouter une bordure à la photo de profil */
+    border-radius: 50%; /* facultatif : pour arrondir les coins de la photo de profil */
+    width:70px; /* ajustez selon vos besoins */
+    height:70px; /* ajustez selon vos besoins */
+  }
